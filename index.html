@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue vs UI5</title>
+    <script type="module" src="/src/main.ts"></script>
+    <script data-ui5-config="" type="application/json">
+      {
+        "theme": "sap_horizon_dark",
+        "language": "EN"
+      }
+    </script>
+  </head>
+  <body>
+    <div class="app">
+      <a href="https://sap.github.io/ui5-webcomponents/playground/getting-started" target="_blank"><img src="/src/assets/img/logo.png" alt="logo"/></a>
+  
+      <div class="app-first-component">
+        <h1>Hooray! It's Your First Web Component!</h1>
+        <div> <pre>&lt;my-token>Component's text&lt;/my-token> </pre></div>
+        <my-token id="myFirstComponent">Component's text</my-token>
+        <br>
+  
+        <div> <pre>&lt;my-token readonly>This is readonly&lt;/my-token> </pre></div>
+        <my-token readonly>This is readonly</my-token>
+        <br>
+  
+        <div><pre>
+  &lt;my-tokenizer>
+    &lt;my-token>Token 1&lt;/my-token>
+    &lt;my-token>Token 2&lt;/my-token>
+    &lt;my-token>Token 3&lt;/my-token>
+    &lt;my-token>Token 4&lt;/my-token>
+    &lt;my-token>Token 5&lt;/my-token>
+  &lt;/my-tokenizer></pre></div>
+  
+        <my-tokenizer>
+          <my-token>Token 1</my-token>
+          <my-token>Token 2</my-token>
+          <my-token>Token 3</my-token>
+          <my-token>Token 4</my-token>
+          <my-token>Token 5</my-token>
+         </my-tokenizer>
+      </div>
+
+    
+      <div class="app-settings">
+  
+        <h2>Switch themes</h2>
+        <div style="display: flex; flex-direction: row;">
+          <a class="link" href="?sap-ui-theme=sap_horizon">Horizon</a>
+          <a class="link" href="?sap-ui-theme=sap_horizon_dark">Horizon Dark</a>
+          <a class="link" href="?sap-ui-theme=sap_horizon_hcb">Horizon High Contrast Black</a>
+          <a class="link" href="?sap-ui-theme=sap_horizon_hcw">Horizon High Contrast White</a>
+        </div>
+      
+        <h2>Switch language</h2>
+        <div>
+          <a class="link" href="?sap-ui-language=en">English</a>
+          <a class="link" href="?sap-ui-language=de">German</a>
+          <a class="link" href="?sap-ui-language=es">Spanish</a>
+          <a class="link" href="?sap-ui-language=fr">French</a>
+        </div>
+      </div>
+  
+      <div class="app-docs">
+        <h2>Documentation</h2>
+        <a class="link" href="https://sap.github.io/ui5-webcomponents/playground/development">Custom Component Development</a>
+      </div>
+    </div>
+  </body>
+</html>
