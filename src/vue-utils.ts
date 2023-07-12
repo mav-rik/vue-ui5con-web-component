@@ -9,7 +9,7 @@ export function registerVueComponent(name: string, vueComponent: Parameters<type
 }
 
 /**
- * Vue does not cover slots when user from WebComponent
+ * Vue does not cover slots when used from WebComponent
  * (issue https://github.com/vuejs/core/issues/8734)
  * 
  * I fixed it with this workaround

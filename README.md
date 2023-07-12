@@ -1,4 +1,4 @@
-# vue-vs-ui5
+# vue-ui5con-web-component
 
 Inspired by [UI5 Web Components](https://github.com/ilhan007/ui5con-web-component) example.
 
